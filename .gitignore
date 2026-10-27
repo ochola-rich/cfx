@@ -1,0 +1,45 @@
+# Binaries
+bin/
+cfxd
+*.exe
+
+# Build artifacts
+*.test
+*.out
+coverage.html
+
+# Go
+go.sum
+
+# Runtime
+runtime/dist/
+runtime/node_modules/
+runtime/.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Test artifacts
+testdata/
+*.golden
